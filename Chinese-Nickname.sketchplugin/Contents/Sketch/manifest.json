@@ -1,0 +1,28 @@
+{
+	"name" : "中文昵称生成",
+	"description" : "中文昵称随机生成器",
+	"homepage": "http://acterce.com",
+	"identifier" : "com.acterce.sketch.chinese-nickname",
+	"version" : "0.1.0",
+	"author": "Acterce",
+	"authorEmail" : "acterce@gmail.com",
+	"commands" : [
+		{
+			"name" : "中文昵称生成",
+			"script" : "script.cocoascript",
+			"shortcut": "ctrl option n",
+			"handlers" : {
+				"run" : "onRun"
+			},
+			"identifier" : "lorem-a"
+		}
+
+	],
+	"menu": {
+		"title" : "中文昵称生成",
+		"isRoot" : true,
+		"items": [
+		  "lorem-a"
+		]
+	}
+}
